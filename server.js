@@ -3,9 +3,9 @@ require('dotenv').config();
 const express = require('express');
 const app = express();
 
-app.get('/', (req, res) => {
-	res.send('Hello');
-});
+const routes = require('./routes.js');
+
+app.use('/', routes);
 
 app.listen(3000, () => {
 	console.log('Servidor rodando');
