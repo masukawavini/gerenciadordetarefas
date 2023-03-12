@@ -2,26 +2,21 @@
 <html>
   <head>
     <title>Gerenciador de Tarefas</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="app.js"></script>
   </head>
   <body>
     <h1>Gerenciador de Tarefas</h1>
-    <!-- Aqui você adicionará a lista de tarefas -->
-    <ul id="tarefas">
-	  <li>Comprar pão</li>
-	  <li>Lavar roupa</li>
-	  <li>Estudar para a prova</li>
+    <ul id="lista-tarefas">
     </ul>
-    <form>
-	  <label for="titulo">Título:</label>
-	  <input type="text" id="titulo" name="titulo"><br>
+    <form id="form-tarefa">
+      <label for="titulo">Título:</label>
+      <input type="text" id="titulo" name="titulo"><br>
 
-	  <label for="descricao">Descrição:</label>
-	  <input type="text" id="descricao" name="descricao"><br>
+      <label for="descricao">Descrição:</label>
+      <input type="text" id="descricao" name="descricao"><br>
 
-	  <input type="submit" value="Adicionar">
+      <button type="submit">Adicionar</button>
     </form>
+    <script src="app.js"></script>
   </body>
 </html>
 
