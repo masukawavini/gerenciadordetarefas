@@ -1,0 +1,21 @@
+{
+  "name": "gerenciadordetarefas",
+  "version": "1.0.0",
+  "description": "Gerenciador de tarefas em JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "bootstrap": "^5.2.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.1",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "socket.io": "^4.6.1"
+  }
+}
